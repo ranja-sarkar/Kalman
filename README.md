@@ -1,17 +1,14 @@
 
 # Kalman filter
 
-**Chapter 7** of my book discusses the Kalman filter.
+**Chapter 7** of my book discusses the Kalman filter. The goal of a **state space model** is to infer information about the state variables of a dynamic system, given the observations. The algorithm for carrying out this procedure is Kalman Filter.
 
 <img width="174" alt="3" src="https://github.com/user-attachments/assets/6d8c55ba-1e33-48e4-976d-f69658fdb3c2">
 
 Buy from Amazon: https://a.co/d/1zUEkNQ
 
 
-The goal of a **state space model** is to infer information about the state variables of a dynamic system, given the observations. The algorithm for carrying out this procedure is Kalman Filter.
-
-
-The state space representation of a timeseries problem is a sequential analysis framework that typically includes tasks like filtering and smoothing. 
+The state space representation of a time-series problem is a sequential analysis framework that typically includes tasks like filtering and smoothing. 
 
 State space models (SSMs) are time-series models traditionally used in control theory to model a dynamic system. Real-world data is discrete (recurrent) and discretization is one of the important (if not the most important) steps in SSM. While deterministic dynamics in discrete time can be handled by discretized ODEs/automata, stochastic dynamics of systems is tackled by SSMs. In SSMs, Kalman filter is the algorithm used to study the state variables of the system evolving with time.
 
