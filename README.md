@@ -17,6 +17,9 @@ State space models (SSMs) are time-series models traditionally used in control t
 
 For more: https://hazyresearch.stanford.edu/blog/2022-01-14-s4-3
 
+
+![00](https://github.com/user-attachments/assets/6719b226-816d-4e28-9635-cfe4fd0aac95)
+
 Bayesian SSMs are typically used in macroeconometrics: https://lnkd.in/dUpyCJWU
 
 Find out more from another book: https://bookdown.org/rdpeng/timeseriesbook/state-space-models-and-the-kalman-filter.html
