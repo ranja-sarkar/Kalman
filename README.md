@@ -5,7 +5,7 @@ The goal of a **state space model** is to infer information about the state vari
 
 State space models have their origins in control systems engineering. Underpinning SSMs are two equations - one describes the internal dynamics of a system that aren’t directly observables, and the other describes how the internal dynamics relate to observable results. This formulation is extremely adaptable for a wide variety of multivariate time-series data.
 
-# SSM
+# SSMs
 
 State space models (SSMs) are a class of machine learning algorithms used to make predictions about dynamic systems by modeling how their internal states evolve over time through differential equations. SSMs traditionally are used in control theory. Real-world data is discrete (recurrent) and discretization is one of the important (if not the most important) steps in SSM. 
 
