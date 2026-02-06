@@ -22,6 +22,10 @@ The state space representation of a time-series problem is a sequential analysis
 
 Mamba is a neural network architecture, derived from SSMs, used for language modeling and other sequence modeling tasks. The [Mamba architecture’s](https://arxiv.org/pdf/2312.00752) fast inference speed and computational efficiency, particularly for long sequences, make it the first competitive alternative to the transformer architecture for autoregressive LLMs.
 
+<img width="367" height="344" alt="mamba" src="https://github.com/user-attachments/assets/2cefa706-69bb-48f5-bb91-7827c98a7f49" />
+
+The procedure (x in the figure) following the selective SSM refers to element-wise multiplication, rather than standard dot product.
+
 Mamba models are perhaps the first deep learning architecture to rival the efficacy of transformer models on the task for which they are originally known which is language modeling.
 
 
