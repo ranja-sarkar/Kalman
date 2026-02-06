@@ -1,7 +1,9 @@
 
 Kalman Filter is discussed in **Chapter 7** of my [book](https://a.co/d/1zUEkNQ). As my book was published in the last quarter of 2023 and mamba arrived in 2024, the chapter doesn't discuss mamba models. 👇
 
-The goal of a **state space model** is to infer information about the state variables of a dynamic system, given the observations. The algorithm underlying SSMs is Kalman Filter.
+The goal of a **state space model** is to infer information about the state variables of a dynamic system, given the observations. The algorithm underlying SSMs is Kalman Filter. 
+
+<img width="407" height="88" alt="kf" src="https://github.com/user-attachments/assets/4550e514-c570-47e7-b3bb-e23cf4d533f8" />
 
 State space models have their origins in control systems engineering. Underpinning SSMs are two equations - one describes the internal dynamics of a system that aren’t directly observables, and the other describes how the internal dynamics relate to observable results. This formulation is extremely adaptable for a wide variety of multivariate time-series data.
 
@@ -18,12 +20,10 @@ Bayesian SSMs are typically used in macroeconometrics.
 
 The state space representation of a time-series problem is a sequential analysis framework that typically includes tasks like [filtering](https://github.com/ranja-sarkar/Kalman/blob/003791fbe4dd3f93aef5399575ace364c1a32f44/code/filtrate.py) and [smoothing](https://github.com/ranja-sarkar/Kalman/blob/003791fbe4dd3f93aef5399575ace364c1a32f44/code/compute.py). 
 
-<img width="407" height="88" alt="kf" src="https://github.com/user-attachments/assets/4550e514-c570-47e7-b3bb-e23cf4d533f8" />
-
 
 # Mamba
 
-Mamba is a neural network architecture, derived from SSMs, used for language modeling and other sequence modeling tasks. The [Mamba architecture’s](https://arxiv.org/pdf/2312.00752) fast inference speed and computational efficiency, particularly for long sequences, make it the first competitive alternative to the transformer architecture for autoregressive LLMs. It is argued in the paper providing the archotecture that a fundamental problem of sequence modeling is compressing context into a smaller state.  It requires content-aware reasoning to be able to memorize the relevant tokens and filter out the irrelevant ones, and to know when to produce the correct output in the appropriate context.
+Mamba is a neural network architecture, derived from SSMs, used for language modeling and other sequence modeling tasks. The [Mamba architecture’s](https://arxiv.org/pdf/2312.00752) fast inference speed and computational efficiency, particularly for long sequences, make it the first competitive alternative to the transformer architecture for autoregressive LLMs. It is argued in the paper providing the architecture that a fundamental problem of sequence modeling is compressing context into a smaller state.  It requires content-aware reasoning to be able to memorize the relevant tokens and filter out the irrelevant ones, and to know when to produce the correct output in the appropriate context.
 
 
 <img width="367" height="344" alt="mamba" src="https://github.com/user-attachments/assets/2cefa706-69bb-48f5-bb91-7827c98a7f49" />
