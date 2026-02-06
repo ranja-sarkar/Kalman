@@ -23,12 +23,13 @@ The state space representation of a time-series problem is a sequential analysis
 
 # Mamba
 
-Mamba is a neural network architecture, derived from SSMs, used for language modeling and other sequence modeling tasks. The [Mamba architecture’s](https://arxiv.org/pdf/2312.00752) fast inference speed and computational efficiency, particularly for long sequences, make it the first competitive alternative to the transformer architecture for autoregressive LLMs.
+Mamba is a neural network architecture, derived from SSMs, used for language modeling and other sequence modeling tasks. The [Mamba architecture’s](https://arxiv.org/pdf/2312.00752) fast inference speed and computational efficiency, particularly for long sequences, make it the first competitive alternative to the transformer architecture for autoregressive LLMs. It is argued in the paper providing the archotecture that a fundamental problem of sequence modeling is compressing context into a smaller state.  It requires content-aware reasoning to be able to memorize the relevant tokens and filter out the irrelevant ones, and to know when to produce the correct output in the appropriate context.
+
 
 <img width="367" height="344" alt="mamba" src="https://github.com/user-attachments/assets/2cefa706-69bb-48f5-bb91-7827c98a7f49" />
 
-The procedure (x in the figure) following the selective SSM refers to element-wise multiplication, rather than standard dot product.
+The procedure (x in the figure) following the selective SSM refers to element-wise multiplication, rather than standard dot product. Here seletion is a means of compression. 
 
-Mamba models are perhaps the first deep learning architecture to rival the efficacy of transformer models on the task for which they are originally known, which is language modeling. Instead of token-to-token attention like in transformer, mamba uses selective SSMs that learn when to forget, and when to remeber.
+Mamba models are perhaps the first deep learning architecture to rival the efficacy of transformer models on the task for which they are originally known, which is language modeling. Instead of token-to-token attention like in transformer, mamba uses selective SSMs that learn how to compress very long context tokens. This yields linear time scaling as opposed to [quadratic time in traditional transformers](https://ranja-sarkar.github.io/2025/12/01/from-language-processing-to-language-modeling.html).
 
 
