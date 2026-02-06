@@ -7,7 +7,7 @@ State space models have their origins in control systems engineering. Underpinni
 
 # SSMs
 
-State space models (SSMs) are a class of machine learning algorithms used to make predictions about dynamic systems by modeling how their internal states evolve over time through differential equations. SSMs traditionally are used in control theory. Real-world data is discrete (recurrent) and discretization is one of the important (if not the most important) steps in SSM. 
+State space models (SSMs) are a class of algorithms used to make predictions about dynamic systems by modeling how their internal states evolve over time through differential equations. SSMs traditionally are used in control theory. Real-world data is discrete (recurrent) and discretization is one of the important (if not the most important) steps in SSM. 
 
 While deterministic dynamics in discrete time can be handled by discretized ODEs/automata, stochastic dynamics of systems is tackled by SSMs. Kalman filter is the algorithm in [SSMs](https://bookdown.org/rdpeng/timeseriesbook/state-space-models-and-the-kalman-filter.html) to study the [state variables](https://hazyresearch.stanford.edu/blog/2022-01-14-s4-3) of the system evolving with time.
 
