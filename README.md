@@ -16,7 +16,7 @@ While deterministic dynamics in discrete time can be handled by discretized ODEs
 
 Bayesian SSMs are typically used in macroeconometrics.
 
-The state space representation of a time-series problem is a sequential analysis framework that typically includes tasks like [filtering](https://github.com/ranja-sarkar/Kalman/blob/003791fbe4dd3f93aef5399575ace364c1a32f44/code/filtrate.py) and smoothing. 
+The state space representation of a time-series problem is a sequential analysis framework that typically includes tasks like [filtering](https://github.com/ranja-sarkar/Kalman/blob/003791fbe4dd3f93aef5399575ace364c1a32f44/code/filtrate.py) and [smoothing](https://github.com/ranja-sarkar/Kalman/blob/003791fbe4dd3f93aef5399575ace364c1a32f44/code/compute.py). 
 
 # Mamba
 
