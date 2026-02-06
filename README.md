@@ -1,5 +1,5 @@
 
-Kalman Filter is discussed in **Chapter 7** of my [book](https://a.co/d/1zUEkNQ). 
+Kalman Filter is discussed in **Chapter 7** of my [book](https://a.co/d/1zUEkNQ). As my book was published in the last quarter of 2023 and mamba arrived in 2024, the chapter doesn't discuss mamba models. 👇
 
 The goal of a **state space model** is to infer information about the state variables of a dynamic system, given the observations. The algorithm underlying SSMs is Kalman Filter.
 
