@@ -18,6 +18,9 @@ Bayesian SSMs are typically used in macroeconometrics.
 
 The state space representation of a time-series problem is a sequential analysis framework that typically includes tasks like [filtering](https://github.com/ranja-sarkar/Kalman/blob/003791fbe4dd3f93aef5399575ace364c1a32f44/code/filtrate.py) and [smoothing](https://github.com/ranja-sarkar/Kalman/blob/003791fbe4dd3f93aef5399575ace364c1a32f44/code/compute.py). 
 
+<img width="407" height="88" alt="kf" src="https://github.com/user-attachments/assets/4550e514-c570-47e7-b3bb-e23cf4d533f8" />
+
+
 # Mamba
 
 Mamba is a neural network architecture, derived from SSMs, used for language modeling and other sequence modeling tasks. The [Mamba architecture’s](https://arxiv.org/pdf/2312.00752) fast inference speed and computational efficiency, particularly for long sequences, make it the first competitive alternative to the transformer architecture for autoregressive LLMs.
@@ -26,6 +29,6 @@ Mamba is a neural network architecture, derived from SSMs, used for language mod
 
 The procedure (x in the figure) following the selective SSM refers to element-wise multiplication, rather than standard dot product.
 
-Mamba models are perhaps the first deep learning architecture to rival the efficacy of transformer models on the task for which they are originally known which is language modeling.
+Mamba models are perhaps the first deep learning architecture to rival the efficacy of transformer models on the task for which they are originally known, which is language modeling. Instead of token-to-token attention like in transformer, mamba uses selective SSMs that learn when to forget, and when to remeber.
 
 
