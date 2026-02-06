@@ -1,5 +1,5 @@
 
-**Chapter 7** of my [book](https://a.co/d/1zUEkNQ) discusses the Kalman filter. The goal of a **state space model** is to infer information about the state variables of a dynamic system, given the observations. The algorithm for SSM is Kalman Filter.
+**Chapter 7** of my [book](https://a.co/d/1zUEkNQ) discusses the Kalman filter. The goal of a **state space model** is to infer information about the state variables of a dynamic system, given the observations. The algorithm underlying SSMs is Kalman Filter.
 
 <img width="174" alt="3" src="https://github.com/user-attachments/assets/6d8c55ba-1e33-48e4-976d-f69658fdb3c2">
 
@@ -16,5 +16,9 @@ While deterministic dynamics in discrete time can be handled by discretized ODEs
 ![00](https://github.com/user-attachments/assets/6719b226-816d-4e28-9635-cfe4fd0aac95)
 
 Bayesian SSMs are typically used in macroeconometrics.
+
+# Mamba
+
+Mamba is a neural network architecture, derived from SSMs, used for language modeling and other sequence modeling tasks. The [Mamba architecture’s](https://arxiv.org/pdf/2312.00752) fast inference speed and computational efficiency, particularly for long sequences, make it the first competitive alternative to the transformer architecture for autoregressive LLMs.
 
 
